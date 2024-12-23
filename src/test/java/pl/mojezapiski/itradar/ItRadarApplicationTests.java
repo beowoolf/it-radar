@@ -13,18 +13,18 @@ import org.testcontainers.utility.DockerImageName;
 @Testcontainers
 class ItRadarApplicationTests {
 
-	@Container
-	public static final MySQLContainer mongoDBContainer = new MySQLContainer(DockerImageName.parse("mysql"));
+    @Container
+    public static final MySQLContainer mongoDBContainer = new MySQLContainer(DockerImageName.parse("mysql"));
 
-	@DynamicPropertySource
-	public static void propertyOverride(DynamicPropertyRegistry registry) {
-		registry.add("spring.datasource.url", mongoDBContainer::getJdbcUrl);
-		registry.add("spring.datasource.username", mongoDBContainer::getUsername);
-		registry.add("spring.datasource.password", mongoDBContainer::getPassword);
-	}
+    @DynamicPropertySource
+    public static void propertyOverride(DynamicPropertyRegistry registry) {
+        registry.add("spring.datasource.url", mongoDBContainer::getJdbcUrl);
+        registry.add("spring.datasource.username", mongoDBContainer::getUsername);
+        registry.add("spring.datasource.password", mongoDBContainer::getPassword);
+    }
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }

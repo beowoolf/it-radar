@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ItRadarApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ItRadarApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ItRadarApplication.class, args);
+    }
 
 }

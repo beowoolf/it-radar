@@ -20,7 +20,6 @@ import pl.mojezapiski.itradar.integration.BaseIntegrationTest;
 import pl.mojezapiski.itradar.integration.SampleJobResponse;
 
 import java.util.List;
-import java.util.regex.Pattern;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertAll;

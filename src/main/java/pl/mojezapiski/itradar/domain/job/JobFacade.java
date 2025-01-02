@@ -6,7 +6,6 @@ import pl.mojezapiski.itradar.domain.job.dto.JobRequestDto;
 import pl.mojezapiski.itradar.domain.job.dto.JobResponseDto;
 import pl.mojezapiski.itradar.domain.job.dto.SkillOccurrencesDto;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 

@@ -1,17 +1,12 @@
 package pl.mojezapiski.itradar.infrastructure.http;
 
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatus.Series;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.client.ClientHttpResponse;
 import org.springframework.web.client.DefaultResponseErrorHandler;
-import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.io.IOException;
-
-import static org.springframework.http.HttpStatus.Series.CLIENT_ERROR;
-import static org.springframework.http.HttpStatus.Series.SERVER_ERROR;
 
 public class RestTemplateResponseErrorHandler extends DefaultResponseErrorHandler {
 

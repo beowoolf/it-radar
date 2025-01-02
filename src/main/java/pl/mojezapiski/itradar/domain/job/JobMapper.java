@@ -4,8 +4,6 @@ import pl.mojezapiski.itradar.domain.job.dto.JobRequestDto;
 import pl.mojezapiski.itradar.domain.job.dto.JobResponse;
 import pl.mojezapiski.itradar.domain.job.dto.JobResponseDto;
 
-import java.util.List;
-import java.util.Set;
 import java.util.stream.Collectors;
 
 public class JobMapper {

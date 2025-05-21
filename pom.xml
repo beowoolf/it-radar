@@ -22,7 +22,7 @@
         <assertj-core.version>3.23.1</assertj-core.version>
         <lombok.version>1.18.36</lombok.version>
         <testcontainers.version>1.20.0</testcontainers.version>
-        <wiremock-jre8.version>2.35.1</wiremock-jre8.version>
+        <wiremock-jre8.version>2.35.2</wiremock-jre8.version>
         <awaitility.version>4.3.0</awaitility.version>
         <!--springfox-boot-starter.version>3.0.0</springfox-boot-starter.version-->
         <springdoc-openapi-ui.version>1.7.0</springdoc-openapi-ui.version>

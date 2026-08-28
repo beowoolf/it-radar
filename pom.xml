@@ -15,9 +15,9 @@
     <name>it-radar</name>
     <description>IT radar that allows you to determine what knowledge is expected in IT.</description>
     <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
-        <java.version>21</java.version>
+        <maven.compiler.source>25</maven.compiler.source>
+        <maven.compiler.target>25</maven.compiler.target>
+        <java.version>25</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <assertj-core.version>3.27.1</assertj-core.version>
         <lombok.version>1.18.36</lombok.version>
